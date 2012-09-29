@@ -1,0 +1,24 @@
+package net.minecraft.src;
+
+import java.util.Map;
+
+public class mod_Test extends BaseMod{
+	//Mob Rendering
+	public void addRenderer(Map map)
+	{
+		map.put(EntityCow.class, new RenderCow(new ModelCow(), 0.5F));
+	}
+
+	@Override
+	public String getVersion() {
+		return "test";
+	}
+
+	@Override
+	public void load() {
+		ModLoader.registerEntityID(EntityCow.class, "1", ModLoader.getUniqueEntityId());
+		ModLoader.addSpawn(EntityCow.class, 8, 4, 4, EnumCreatureType.monster);
+		
+	}
+
+}
