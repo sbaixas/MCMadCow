@@ -1,0 +1,12 @@
+sep 28, 2012 10:54:47 PM net.minecraft.src.ModLoader init
+FINE: ModLoader 1.3.2 Initializing...
+sep 28, 2012 10:54:47 PM net.minecraft.src.ModLoader readFromClassPath
+FINER: Adding mods from D:\MCP 7.2\eclipse\Client\bin
+sep 28, 2012 10:54:47 PM net.minecraft.src.ModLoader readFromClassPath
+FINER: Directory found.
+sep 28, 2012 10:54:47 PM net.minecraft.src.ModLoader addMod
+FINE: Mod Initialized: "mod_Test test" from mod_Test.class
+sep 28, 2012 10:54:47 PM net.minecraft.src.ModLoader init
+FINE: Mod Loaded: "mod_Test test"
+sep 28, 2012 10:54:47 PM net.minecraft.src.ModLoader addAllRenderers
+FINE: Initialized
